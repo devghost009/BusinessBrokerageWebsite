@@ -1,0 +1,268 @@
+.heroSection {}
+
+.heroContainer {
+  padding: 80px 0;
+}
+
+.heroHeader {
+  color: #ffffff;
+  font-family: "Bebas-Neue-bold";
+}
+
+.heroSubHeader {
+  color: #ffffff;
+  font-style: italic;
+}
+
+.heroContent {
+  color: #ffffff;
+  margin: 20px 0px 0 0;
+  text-align: justify;
+}
+
+.heroBtn {
+  background-color: var(--white-color) !important;
+  color: var(--main-color) !important;
+  margin-top: 20px;
+  width: 156px;
+  padding: 0;
+  height: 53px;
+}
+
+.heroBtn:hover {
+  background-color: var(--main-color) !important;
+  color: var(--white-color) !important;
+}
+
+.landingPage {
+  width: 100%;
+}
+
+.BuyAndSale__main {
+  background-color: #f5f5f5;
+  padding: 60px 0px;
+}
+
+.container {
+  max-width: 66%;
+  height: 100%;
+  padding-top: 0px !important;
+  padding-bottom: 0px !important;
+}
+
+.container {
+  max-width: 67% !important;
+  width: 67% !important;
+}
+
+.landing__about {
+  padding: 60px 0px;
+}
+
+.about_btn_inner {
+  width: 202px;
+  color: #ffffff;
+  background: #02528a;
+  padding: 0 28px;
+}
+
+.about_btn_inner:hover {
+  background-color: var(--white-color);
+  color: var(--main-color);
+  box-shadow: 0 0 4px #00000017;
+}
+
+.aboutCol_left {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.aboutCol_left h3 {
+  color: #02528a;
+}
+
+.aboutCol_left p {
+  color: #808080;
+  margin-bottom: 20px;
+  max-width: 700px;
+  text-align: justify;
+}
+
+.about__btn {
+  margin-top: 25px;
+}
+
+.aboutCol_right {
+  width: 100%;
+  height: 100%;
+}
+
+.aboutCol_right img {
+  width: 100%;
+  height: 100%;
+}
+
+.cardSection__main {
+  background-color: #f5f5f5;
+  padding: 60px 0;
+}
+
+.text_silder_main {
+  padding: 60px 0;
+}
+
+.text_silder_content {
+  text-align: center;
+}
+
+.text_silder_bottom {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.text_silder_content h3 {
+  color: #02528a;
+}
+
+.text_silder_content p {
+  color: #808080;
+  max-width: 1110px;
+  margin: 0 auto;
+}
+
+.BuyAndSale_head {
+  padding: 60px 0;
+}
+
+.BuyAndSale_leftCol,
+.BuyAndSale_rightCol {
+  box-shadow: 1px 0px 19px #00000017;
+  background-color: var(--white-color);
+  padding: 15px 20px;
+  border-radius: 10px;
+}
+
+.BuyAndSale_leftCol h3,
+.BuyAndSale_rightCol h3 {
+  color: #02528a;
+}
+
+.BuyAndSale_leftCol p,
+.BuyAndSale_rightCol p {
+  color: #808080;
+  text-align: justify;
+}
+
+p {
+  margin: 0px;
+}
+
+@media screen and (max-width: 1280px) {
+  .container {
+    max-width: 75% !important;
+    width: 75% !important;
+  }
+
+  .about_btn_inner {
+    width: 194px !important;
+    height: 47px !important;
+    padding: 0 0px !important;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .container {
+    max-width: 80% !important;
+    width: 80% !important;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .BuyAndSale_col {
+    margin-top: 30px !important;
+  }
+
+  .aboutCol_right {
+    margin-top: 20px;
+  }
+
+  .aboutCol_right img {
+    width: 100% !important;
+  }
+
+  .about_btn_inner {
+    width: 182px !important;
+    height: 44px !important;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    max-width: 90% !important;
+    width: 90% !important;
+  }
+
+  .about_btn_inner {
+    width: 170px !important;
+    height: 41px !important;
+    font-size: 18px !important;
+  }
+
+  .LandingCard_col {
+    padding: 0 15%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .aboutCol_right {
+    height: 350px;
+  }
+
+  .about_btn_inner {
+    width: 170px !important;
+    height: 38px !important;
+    font-size: 18px !important;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .aboutCol_right {
+    height: 300px;
+  }
+
+  .about_btn_inner {
+    width: 160px !important;
+    height: 38px !important;
+    font-size: 17px !important;
+  }
+
+  .LandingCard_col {
+    padding: 0 8%;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .container {
+    max-width: 96% !important;
+    width: 96% !important;
+  }
+
+  .about_btn_inner {
+    width: 150px !important;
+    height: 37px !important;
+    font-size: 15px !important;
+    letter-spacing: 0.7px !important;
+  }
+
+  .LandingCard_col {
+    padding: 0 2%;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .aboutCol_right {
+    height: 250px;
+  }
+}

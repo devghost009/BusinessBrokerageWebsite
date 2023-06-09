@@ -1,0 +1,23 @@
+/* dropdown */
+.dropdown_row {
+  background: #fff;
+  padding: 10px;
+}
+.dropdown_btn {
+  color: #ffffff;
+  background: #02528a;
+  height: 46px;
+  font-family: "Open-Sans-regular" !important;
+  font-size: 18px !important;
+  width: 90%;
+}
+.btnDiv {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  justify-content: center;
+}
+/* dropdown */
+.inputClass input::placeholder {
+  color: var(--main-color);
+}

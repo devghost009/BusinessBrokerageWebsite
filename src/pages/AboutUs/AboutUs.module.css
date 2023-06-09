@@ -1,0 +1,220 @@
+.heroContainer {
+  padding: 60px 0;
+}
+
+.heroHeader {
+  color: #ffffff;
+  text-align: center;
+  font-family: "Bebas-Neue-bold";
+}
+
+.heroSubHeaderDiv {
+  margin-top: 22px;
+}
+
+.heroSubHeader {
+  text-align: center;
+}
+
+.heroBtn {
+  background-color: transparent !important;
+  transition: all 0.3s;
+  font-size: 1.8rem !important;
+}
+
+.heroBtn:hover,
+.heroBtn:active {
+  background-color: var(--white-color) !important;
+  color: var(--main-color);
+}
+
+.aboutPage_bgColor {
+  padding: 60px 0 0 0;
+  background-color: #f5f5f5;
+}
+
+.aboutSection_head {
+  color: var(--main-color);
+  margin-bottom: 32px;
+}
+
+.aboutSection_head h1 {
+  font-size: 50px;
+}
+
+.team_container {
+  padding: 20px 0 0 0;
+  max-width: 75%;
+  width: 75%;
+}
+
+.team_container h1 {
+  margin-bottom: 30px;
+  color: var(--main-color);
+  font-size: 54px;
+}
+
+.core_container {
+  max-width: 81%;
+  width: 81%;
+  padding: 60px 0 0 0;
+}
+
+.core_container h3 {
+  text-align: center;
+  color: var(--main-color);
+}
+
+.core_row {
+  justify-content: center;
+}
+
+.companyHistory_container {
+  max-width: 82%;
+  padding: 40px 0 60px 0;
+}
+
+.companyHistory_container h3 {
+  color: var(--main-color);
+  text-align: center;
+}
+
+.team_image {
+  width: 230px;
+  height: 230px;
+  margin: 0 auto;
+}
+
+.team_image_100 {
+  width: 100%;
+}
+
+.container {
+  max-width: 75%;
+  width: 75%;
+  padding-bottom: 40px;
+  padding-top: 50px;
+}
+
+.AboutSection_main p {
+  color: #000000;
+  text-align: justify;
+}
+
+.AboutSection_main h3 {
+  font-size: 40px;
+}
+
+.AboutSection_main {}
+
+.coreCol {
+  margin-bottom: 40px;
+}
+
+.ourTeam_row {
+  row-gap: 40px;
+}
+
+@media screen and (max-width: 1280px) {
+
+  .container,
+  .team_container {
+    max-width: 75% !important;
+    width: 75% !important;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+
+  .container,
+  .team_container,
+  .core_container,
+  .companyHistory_container {
+    max-width: 80% !important;
+    width: 80% !important;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .team_container {
+    padding: 30px 0 !important;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .heroSubHeaderDiv {
+    gap: 10px;
+  }
+
+  .heroSubHeader {}
+}
+
+@media screen and (max-width: 768px) {
+
+  .container,
+  .team_container,
+  .core_container,
+  .companyHistory_container {
+    max-width: 90% !important;
+    width: 90% !important;
+  }
+
+  .our_teamCol {
+    padding: 0 15%;
+  }
+
+  .team_container {
+    padding: 0px 0 !important;
+  }
+}
+
+.dNone992 {}
+
+@media screen and (max-width: 1200px) {
+  .dNone1200 {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .heroSubHeaderDiv {}
+
+  .heroSubHeader {}
+
+  .team_image {
+    width: 200px;
+    height: 180px;
+  }
+
+  .heroBtn {
+    min-width: 186px;
+    font-size: 1.5rem !important;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .our_teamCol {
+    padding: 0 8%;
+  }
+
+  .heroSubHeaderDiv {}
+}
+
+@media screen and (max-width: 375px) {
+
+  .container,
+  .team_container,
+  .core_container,
+  .companyHistory_container {
+    max-width: 96% !important;
+  }
+
+  .our_teamCol {
+    padding: 0 5%;
+  }
+
+  .ourTeam_row,
+  .core_row {
+    margin: 0 !important;
+  }
+}

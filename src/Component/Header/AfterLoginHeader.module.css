@@ -1,0 +1,186 @@
+.header {
+  padding: 15px 0px;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+.navbarContainer {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  border-bottom: 2px solid #f0f0f0;
+  padding-block: 15px;
+  max-width: 100%;
+}
+
+.wrapper {
+  font-family: "Inter", sans-serif;
+  padding: 15px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+svg {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.mainColor {
+  color: #4d55e5;
+  cursor: pointer;
+}
+
+.linkContainer {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.linkContainer span {
+  margin-right: 10px;
+}
+
+.logoImage {
+  width: 156px;
+  height: 36px;
+  vertical-align: middle;
+}
+
+.goBackLink {
+  padding-left: 30px;
+}
+
+.nabarLinks {
+  color: var(--text-color-black) !important;
+  font-family: "plus-jakarta-display-regular";
+  font-size: 18px !important;
+  padding: 8px 0px;
+  text-decoration: none;
+  line-height: 1.1;
+  font-weight: 600;
+}
+
+.nabarLinks:hover {
+  transition: all 0.4s ease-in-out;
+  color: var(--main-color) !important;
+}
+
+.navActive {
+  color: var(--main-color) !important;
+  border-bottom: 2px solid var(--main-color);
+}
+
+.signin_button {
+  background-color: var(--button-color);
+  border: 1px solid var(--main-color);
+  color: var(--text-color-black);
+  margin-right: 14px;
+}
+
+.btn {
+  padding: 10px 30px !important;
+  border-radius: 30px;
+  font-family: "plus-jakarta-display-regular";
+}
+
+.signup_button {
+  background-color: var(--main-color);
+  color: var(--white-color);
+  border: 1px solid var(--main-color);
+}
+
+.gapCustm {
+  gap: 3rem;
+}
+
+.dflex {
+  display: flex;
+}
+
+.signup_button {
+  color: var(--white-color) !important;
+}
+
+.profileImg {
+  width: 47px;
+  height: 47px;
+  border-radius: 50%;
+  border: 2px solid #929eaa;
+  background-color: #d6d6d6;
+}
+
+.profileImg img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  object-fit: cover;
+  cursor: pointer;
+}
+
+.iconDiv {
+  display: flex;
+  align-items: center;
+  margin-right: 12px;
+}
+
+.notifyoverlayDiv {
+  top: 20px !important;
+  left: -10px !important;
+  z-index: 2;
+}
+
+.SettingsoverlayDiv {
+  top: 12px !important;
+  left: -10px !important;
+  z-index: 2;
+}
+
+.SettingsPopup {
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 0 0 4px 0 #0000004a;
+  padding: 12px 30px;
+  width: max-content;
+}
+
+.editProfileIcons {
+  vertical-align: bottom !important;
+  margin-right: 5px;
+}
+
+.editprofileDiv {
+  margin-bottom: 10px;
+  color: var(--text-dark-gray);
+  cursor: pointer;
+}
+
+@media (max-width: 1200px) {
+  .gapCustm {
+    gap: 1.5rem;
+  }
+}
+
+@media (max-width: 1080px) {
+  .gapCustm {
+    gap: 1rem;
+  }
+
+  .nabarLinks {
+    font-size: 16px !important;
+  }
+  .iconDiv svg {
+    width: 25px !important;
+    height: 25px !important;
+  }
+
+  .iconDiv svg {
+    margin-right: 10px;
+  }
+
+  .profileImg {
+    width: 35px;
+    height: 35px;
+  }
+}

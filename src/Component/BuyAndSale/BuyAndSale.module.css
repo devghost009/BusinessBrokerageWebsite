@@ -1,0 +1,110 @@
+.buyAndSale__content_img {
+  width: 140px;
+  height: 140px;
+}
+
+.buyAndSale__content_img img {
+  width: 100%;
+  height: 100%;
+}
+
+.buyAndSale__content h3 {
+  color: #02528a;
+  margin-top: 30px;
+}
+
+.buyAndSale__content p {
+  color: #808080;
+  text-align: justify;
+}
+
+.BuyAndSale_btn {
+  margin-top: 20px;
+}
+
+.BuyAndSale_btn_inner {
+  width: 202px;
+  color: #ffffff;
+  background: #02528a;
+}
+
+.iconDiv {
+  border: 3px solid var(--main-color);
+  background-color: var(--main-color);
+  width: 100px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.iconDiv:hover {
+  background-color: transparent;
+}
+
+.iconDiv:hover svg {
+  color: var(--main-color) !important;
+}
+
+.iconDiv svg {
+  color: #fff !important;
+}
+
+.BuyAndSale_btn_inner:hover {
+  background-color: var(--white-color);
+  color: var(--main-color);
+}
+
+@media screen and (max-width: 991px) {
+  .BuyAndSale_btn_inner {
+    width: 192px;
+    height: 47px;
+  }
+
+  .buyAndSale__content_img {
+    width: 125px;
+    height: 125px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .BuyAndSale_btn_inner {
+    width: 172px;
+    height: 44px;
+  }
+
+  .buyAndSale__content_img {
+    width: 110px;
+    height: 110px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .BuyAndSale_btn_inner {
+    width: 162px;
+    height: 41px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .BuyAndSale_btn_inner {
+    width: 152px;
+    height: 40px;
+  }
+
+  .buyAndSale__content_img {
+    width: 95px;
+    height: 95px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .BuyAndSale_btn_inner {
+    width: 142px;
+    height: 36px;
+    font-size: 15px !important;
+    letter-spacing: 0.8px;
+  }
+}

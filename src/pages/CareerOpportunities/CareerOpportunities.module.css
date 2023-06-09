@@ -1,0 +1,164 @@
+.page p {
+  text-align: justify;
+}
+
+.heroBackground {
+  background: transparent linear-gradient(90deg, #2c2c2c 0%, #016fbc 100%) 0% 0%
+    no-repeat padding-box;
+}
+
+.heroContainer {
+  padding: 60px 0;
+}
+
+.heroHeader {
+  color: #ffffff;
+  font-family: "Bebas-Neue-bold";
+  text-align: center;
+}
+
+.career_btn {
+  width: 188px;
+  background-color: #02528a;
+  color: white;
+}
+
+.career_top_main {
+  padding: 60px 0;
+}
+
+.career_top_main p {
+  line-height: 30px;
+  max-width: 920px;
+}
+
+.container h3 {
+  color: var(--main-color);
+}
+
+.container2_main {
+  background-color: #f5f5f5;
+  padding: 60px 0;
+}
+
+.container2_main h3 {
+  margin-bottom: 30px;
+}
+
+.broker_left h4 {
+  font-size: 40px !important;
+}
+
+.broker_left p {
+  font-family: "Open-Sans-regular";
+  line-height: 26px;
+  margin-bottom: 20px;
+}
+
+.Internship_left h4 {
+  font-size: 40px !important;
+  padding-top: 40px;
+}
+
+.Internship_left p {
+  font-family: "Open-Sans-regular";
+  line-height: 26px;
+  margin-bottom: 20px;
+}
+
+.carees_hero {
+  display: none;
+}
+
+.container {
+  max-width: 72%;
+  width: 72%;
+}
+
+.card {
+  box-shadow: 11px 11px 19px #00000017;
+  padding: 14px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  background-color: #fff;
+}
+.career_btn:hover {
+  background-color: #fff;
+  color: var(--main-color);
+  box-shadow: 0 0 4px #00000017;
+}
+@media screen and (max-width: 991px) {
+  .apply_btn {
+    margin-top: 20px;
+  }
+
+  .broker_left h4 {
+    font-size: 36px !important;
+  }
+
+  .Internship_left h4 {
+    font-size: 36px !important;
+  }
+
+  .career_btn {
+    width: 178px;
+    height: 46px !important;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .container {
+    max-width: 80% !important;
+    width: 80% !important;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    max-width: 90% !important;
+    width: 90% !important;
+  }
+
+  .career_top_main p {
+    line-height: 22px;
+  }
+
+  .broker_left h4 {
+    font-size: 30px !important;
+  }
+
+  .Internship_left h4 {
+    font-size: 30px !important;
+  }
+
+  .career_btn {
+    width: 168px;
+    height: 43px !important;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .broker_left h4 {
+    font-size: 27px !important;
+  }
+
+  .Internship_left h4 {
+    font-size: 27px !important;
+  }
+
+  .career_btn {
+    width: 138px;
+    height: 39px !important;
+  }
+
+  .heroHeader {
+    font-size: 40px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .container {
+    max-width: 96% !important;
+    width: 96% !important;
+  }
+}

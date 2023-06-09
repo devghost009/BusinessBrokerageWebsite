@@ -1,0 +1,67 @@
+.mainContainer {
+  padding: 15px;
+  height: calc(100vh - 79px);
+  overflow-y: auto;
+}
+
+.listing_head {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 15px;
+}
+
+.listing_head h4 {
+  font-family: "Bebas-Neue-bold";
+  font-size: 35px;
+  color: #242342;
+  margin-bottom: 0;
+}
+
+.threeDots {
+  cursor: pointer;
+}
+.viewDetailsBtn,
+.viewMemoBtn {
+  height: max-content;
+  font-family: "Open-Sans-medium" !important;
+  font-size: 13px !important;
+  background-color: var(--dashboard-main-color);
+  padding: 8px 10px !important;
+  border-radius: 8px;
+}
+.btnsDiv {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  justify-content: center;
+}
+
+.paginationDiv {
+  display: flex;
+  justify-content: flex-end;
+  padding: 20px 30px 20px 30px;
+}
+
+.noDataColor svg {
+  color: var(--dashboard-main-color);
+}
+
+.noDataColor p {
+  color: var(--dashboard-main-color);
+}
+
+@media screen and (max-width: 992px) {
+  .listing_head h4 {
+    font-size: 30px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .mainContainer {
+    padding: 10px;
+  }
+
+  .listing_head h4 {
+    font-size: 28px;
+  }
+}

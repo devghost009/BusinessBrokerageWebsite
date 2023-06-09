@@ -1,0 +1,100 @@
+.aboutTeam_img {
+  height: 250px;
+  width: 100%;
+  border: 3px solid var(--main-color);
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.aboutTeam_img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: top center;
+}
+
+.aboutTeam_main {
+  margin-top: 10px;
+}
+
+.aboutTeam_main p {
+  text-align: justify;
+}
+
+.aboutTeam_content {
+  background-color: #ffffff;
+  padding: 25px 20px;
+  margin-top: 20px;
+}
+
+.aboutTeam_main h4 {
+  font-family: "Bebas-Neue-bold";
+}
+
+.aboutTeam_btn {
+  background-color: var(--main-color);
+  color: #ffffff;
+  width: 100% !important;
+  border-radius: 25px;
+  height: 44px !important;
+
+}
+
+.aboutTeam_main .aboutTeam_img {
+  margin-bottom: 30px;
+}
+
+.aboutTeam_main h4 {
+  margin-bottom: 20px;
+}
+
+.aboutTeam_content a {
+  font-size: 16px;
+  font-family: "Open-Sans-regular"
+}
+
+.aboutTeam_content .site {
+  color: #2d5c88;
+  font-style: italic;
+}
+
+.aboutTeam_content .office {
+  font-style: italic;
+  color: #2d5c88;
+  margin-top: 3px;
+}
+
+.aboutTeam_content .office span {
+  color: black;
+}
+
+.aboutTeam_content .desk {
+  font-style: italic;
+  color: #2d5c88;
+  margin-top: 3px;
+}
+
+.aboutTeam_content .desk span {
+  color: black;
+}
+
+.aboutTeam_content .cell {
+  font-style: italic;
+  color: #2d5c88;
+  margin-top: 3px;
+}
+
+.aboutTeam_content .cell span {
+  color: black;
+}
+
+.aboutTeam_content .para {
+  margin: 20px 0;
+  font-family: "Open-Sans-medium";
+}
+
+.aboutTeam_content a {
+  text-decoration: none;
+  font-family: "Open-Sans-medium";
+  color: #2d5c88;
+}

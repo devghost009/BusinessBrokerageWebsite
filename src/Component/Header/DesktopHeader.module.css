@@ -1,0 +1,229 @@
+.header {
+  padding: 15px 15px;
+  box-shadow: 0 0 4px #00000059;
+  position: sticky;
+  top: 0;
+  z-index: 3;
+  background: #fff;
+}
+
+.navbarContainer {
+  max-width: 100%;
+}
+
+.nabarLinks {
+  color: var(--main-color) !important;
+  font-size: 18px !important;
+  padding: 2px 12px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-family: "Bebas-Neue-bold";
+}
+.nabarLinks:hover {
+  color: var(--white-color) !important;
+  background-color: var(--main-color);
+}
+
+.navActive {
+  color: var(--white-color) !important;
+  background-color: var(--main-color);
+}
+
+.signup_button {
+  background-color: var(--main-color);
+  color: var(--white-color);
+  border: 1px solid var(--main-color);
+}
+
+.gapCustm {
+  gap: 14px;
+}
+
+.dflex {
+  display: flex;
+  gap: 14px;
+}
+
+.signup_button {
+  color: var(--white-color) !important;
+}
+
+.header_right {
+  color: var(--main-color);
+  text-decoration: none;
+  font-size: 18px;
+  font-family: "Bebas-Neue-regular";
+  margin-bottom: 0;
+  cursor: pointer;
+}
+.header_right:hover {
+  color: var(--main-color);
+  text-decoration: none;
+}
+
+.profileImg {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 2px solid #929eaa;
+  background-color: #d6d6d6;
+}
+
+.profileImg img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  object-fit: cover;
+  cursor: pointer;
+  object-position: top center;
+}
+
+.iconDiv {
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.afterIcon {
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+.notifyoverlayDiv {
+  top: 20px !important;
+  left: -10px !important;
+}
+
+.SettingsoverlayDiv {
+  top: 12px !important;
+  left: -10px !important;
+}
+
+.SettingsPopup {
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 0 0 4px 0 #0000004a;
+  padding: 12px 30px;
+  width: max-content;
+}
+
+.editProfileIcons {
+  vertical-align: bottom !important;
+  margin-right: 5px;
+}
+
+.editprofileDiv {
+  margin-bottom: 10px;
+  color: var(--text-dark-gray);
+  cursor: pointer;
+}
+
+.headerIconSize {
+  font-size: 22px;
+}
+
+.profileOverlay {
+  width: 100%;
+  top: 100px !important;
+  display: flex;
+  justify-content: flex-end;
+  transform: none !important;
+  inset: 104px auto auto -30px !important;
+  z-index: 3;
+  position: fixed !important;
+}
+.profileOverlay > div {
+  width: 200px;
+  height: 100%;
+  background-color: white;
+  box-shadow: 0 0 4px 0px #0000004a;
+  padding: 12px 12px 12px 12px;
+  border-radius: 12px;
+  text-align: center;
+  z-index: 3;
+}
+.overlayLink {
+  font-size: 18px !important;
+  color: var(--main-color) !important;
+  padding: 2px 12px 1px 12px !important;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: "Bebas-Neue-regular";
+  cursor: pointer;
+  margin-bottom: 0;
+}
+.main_logo_main {
+  cursor: pointer;
+}
+@media (max-width: 1285px) {
+  .gapCustm {
+    gap: 6px;
+  }
+
+  .nabarLinks {
+    font-size: 15px !important;
+  }
+
+  .header_right {
+    font-size: 15px !important;
+  }
+}
+
+@media (max-width: 1220px) {
+  .main_logo_main img {
+    width: 140px;
+  }
+
+  .nabarLinks {
+    font-size: 13px !important;
+  }
+
+  .header_right {
+    font-size: 13px !important;
+  }
+
+  .headerIconSize {
+    font-size: 19px;
+  }
+  .profileOverlay {
+    inset: 85px auto auto -30px !important;
+  }
+}
+
+@media (max-width: 1080px) {
+  .nabarLinks {
+    padding: 2px 8px;
+  }
+
+  .afterIcon {
+    margin-right: 16px;
+  }
+
+  .iconDiv svg {
+    width: 25px !important;
+    height: 25px !important;
+  }
+
+  .iconDiv svg {
+    margin-right: 10px;
+  }
+
+  .profileImg {
+    width: 40px;
+    height: 40px;
+  }
+
+  .headerIconSize {
+    font-size: 17px;
+  }
+  .profileOverlay {
+    inset: 75px auto auto -30px !important;
+  }
+}
+
+@media (max-width: 1054px) {
+  .gapCustm {
+    gap: 10px !important;
+  }
+}

@@ -1,0 +1,48 @@
+.modal {
+  border-radius: 20px;
+}
+
+
+.header {
+  margin: 32px 32px;
+  padding: 0px;
+  padding-bottom: 32px;
+}
+
+.header button {
+  padding: 0px !important;
+  margin: 0px !important;
+  right: 27px;
+  top: 27px;
+  opacity: 1;
+  width: 16px;
+  height: 16px;
+  background-repeat: no-repeat !important;
+}
+
+.header button:hover {
+  opacity: 1;
+  box-shadow: unset;
+}
+
+.footer {
+  padding: 16px 32px;
+}
+
+.body {
+  padding: 32px;
+}
+
+.iconBox {
+  position: absolute;
+  right: 20px;
+  top: 10px;
+  z-index: 10;
+  cursor: pointer;
+}
+
+.iconBox img {
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+}

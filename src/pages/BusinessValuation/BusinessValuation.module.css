@@ -1,0 +1,109 @@
+.heroBackground {
+  background: transparent linear-gradient(90deg, #2c2c2c 0%, #016fbc 100%) 0% 0% no-repeat padding-box;
+}
+
+.heroContainer {
+  padding: 116px 0;
+}
+
+.heroHeader {
+  color: #ffffff;
+  font-family: "Bebas-Neue-bold";
+  font-size: 67px;
+  text-align: center;
+}
+
+.container {
+  max-width: 66%;
+  width: 66%;
+  padding: 60px 0;
+}
+
+.BusinessValuation_main {
+  padding: 50px 0;
+}
+
+.BusinessValuation_main h1 {
+  color: var(--main-color);
+}
+
+.BusinessValuation_main p {
+  margin-top: 25px;
+  line-height: 27px;
+}
+
+.input_main {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+}
+
+.submit_btn_main {
+  margin: 30px 0;
+}
+
+.submit_btn {
+  width: 100%;
+  color: white;
+  background-color: var(--main-color);
+  font-size: 32px !important;
+  cursor: pointer;
+}
+
+.valuation_hero {
+  display: none;
+}
+
+@media screen and (max-width: 1280px) {
+  .container {
+    max-width: 75% !important;
+    width: 75% !important;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .container {
+    max-width: 80% !important;
+    width: 80% !important;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    max-width: 90% !important;
+    width: 90% !important;
+  }
+
+  .BusinessValuation_main {
+    padding: 0px 0 !important;
+  }
+
+  .submit_btn {
+    font-size: 28px !important;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .input_main label {
+    font-size: 26px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .container {
+    max-width: 96% !important;
+    width: 96% !important;
+  }
+
+  .BusinessValuation_main p {
+    line-height: 23px;
+  }
+
+  .submit_btn {
+    font-size: 26px !important;
+  }
+
+  .form_row {
+    margin: 0 !important;
+  }
+}

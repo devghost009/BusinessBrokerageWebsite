@@ -1,0 +1,309 @@
+.page {
+}
+
+.heroContainer {
+  padding: 100px 0;
+}
+.pageContainer {
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+.heroHeader {
+  color: var(--white-color);
+  font-family: "Bebas-Neue-bold";
+  max-width: 610px;
+}
+.emailLink {
+  font-family: "Open-Sans-regular";
+  font-size: 17px;
+  color: var(--main-color) !important;
+}
+
+.heroSubHeader {
+  color: var(--white-color);
+  font-style: italic;
+}
+
+.heroContent {
+  color: var(--white-color);
+  margin: 20px 0px 0 0;
+}
+
+.agreementSection {
+  margin-top: 70px;
+  background-color: var(--text-color-gray);
+  padding-top: 16px;
+}
+
+.agreementSection .headingAndSubtitle {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.agreementSection .headingAndSubtitle h2 {
+  font-size: 53px;
+  color: var(--main-color);
+}
+
+.agreementSection .headingAndSubtitle p {
+  font-size: 33px;
+  color: var(--main-color);
+  font-family: "Bebas-Neue-bold";
+}
+
+/* Basic Fields Form */
+.basicFieldsForm {
+  padding: 35px 0px 0 0s;
+}
+.bgGreyColor {
+  background-color: var(--text-color-gray);
+}
+.basicFieldsForm .and {
+  font-size: 20px;
+  text-align: center;
+  font-family: "Open-Sans-semiBold";
+}
+
+.agreementSection h6,
+.basicFieldsForm h6,
+.followingInfo h6,
+.btwBrokerAndBuyer h6 {
+  font-size: 24px;
+  color: var(--main-color);
+  font-family: "Bebas-Neue-bold";
+}
+
+.basicFieldsForm .orgDetails ul {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.basicFieldsForm .orgDetails ul li {
+  margin-top: 12px;
+}
+.userDetails ul li {
+  margin-bottom: 12px;
+}
+.userDetails ul {
+  padding-left: 0px;
+}
+
+.mt32 {
+  margin-top: 32px;
+}
+
+.mt20 {
+  margin-top: 20px;
+}
+
+.basicFieldsForm .fields {
+  max-width: 85%;
+  margin: 0px auto 0px 0px;
+}
+.busRef {
+  text-align: center;
+  /* display: flex;
+  justify-content: center;
+  align-items: baseline; */
+}
+.busRef span:first-child {
+  font-size: 24px;
+  color: var(--main-color);
+  font-family: "Bebas-Neue-bold";
+  line-height: 1;
+}
+
+.busRef span:last-child {
+  font-size: 18px;
+  font-family: "Open-Sans-regular";
+  color: var(--text-color-black);
+  line-height: 1;
+}
+
+/* Common */
+.inputDiv {
+  margin-bottom: 20px;
+}
+
+.inputDiv label {
+  font-size: 20px;
+}
+
+/* Text After Basic Form */
+.textAfterBasicForm {
+  padding: 40px 0px;
+}
+.relationShipBrokerBuyerSection {
+  padding: 16px;
+}
+.textAfterBasicForm h6 {
+  margin: 20px 0px;
+}
+
+.textAfterBasicForm p span {
+  text-decoration: underline;
+  color: var(--main-color);
+  font-family: "Bebas-Neue-bold";
+  font-size: 20px;
+}
+
+.btwBrokerAndBuyer {
+  background-color: var(--text-color-gray);
+  padding: 15px 0px;
+}
+
+.btwBrokerAndBuyer h6 {
+  margin-bottom: 30px;
+}
+
+.btwBrokerAndBuyer h5 {
+  text-transform: capitalize;
+  font-size: 24px;
+  color: var(--text-color-black);
+  font-family: "Bebas-Neue-bold";
+  margin-bottom: 20px;
+}
+
+/* Following Info */
+.followingInfo {
+  margin-top: 15px;
+}
+
+.followingInfo h6 {
+  margin-bottom: 20px;
+  font-family: "Open-Sans-bold";
+}
+
+.followingInfo h5 {
+  font-size: 24px;
+  color: var(--main-color);
+  font-family: "Open-Sans-semiBold";
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+
+.reqText {
+  font-size: 20px;
+  font-family: "Open-Sans-semiBold";
+  color: var(--text-color-black);
+}
+
+.p16 {
+  font-size: 16px;
+  font-family: "Open-Sans-semiBold";
+}
+
+.mt20 {
+  margin-top: 20px;
+}
+
+.textBlue {
+  color: var(--main-color);
+  display: block;
+  margin-bottom: 24px;
+  font-family: "Open-Sans-regular";
+}
+.agreementText p {
+  font-size: 15px;
+  font-family: "Open-Sans-regular";
+  color: var(--text-color-black);
+  text-transform: capitalize;
+  font-weight: bold;
+}
+.areYouBrokerText p {
+  font-size: 15px;
+  font-family: "Open-Sans-regular";
+  color: var(--text-color-black);
+}
+.personalInfoText {
+  text-align: center;
+  margin-top: 16px;
+}
+
+.mt50 {
+  margin-top: 50px;
+}
+
+.textCenter {
+  text-align: center;
+}
+
+/* Checkbox only */
+.titleAndDescList {
+}
+
+.titleAndDescList p span {
+  margin-right: 40px;
+}
+
+.titleAndDescList p:last-child {
+  text-indent: 57px;
+}
+.checkCol {
+  margin-top: 12px;
+}
+.checkCol label {
+  text-transform: capitalize !important;
+  font-weight: bold;
+}
+
+.submitBtn {
+  height: 50px;
+  min-width: 200px;
+  font-size: 28px !important;
+}
+.radioLicensedDiv {
+  display: flex;
+  gap: 32px;
+}
+.phoneLabel {
+  font-size: 20px;
+}
+.inputDiv input::placeholder {
+  text-transform: none !important;
+}
+.confidentialDocsList {
+  padding-left: 1.5rem;
+}
+.confidentialDocsList li {
+  font-size: 18px;
+  font-family: "Open-Sans-regular";
+  color: var(--text-color-black);
+  list-style-type: disc;
+  margin-bottom: 10px;
+  text-align: justify;
+}
+.redColorText {
+  color: red !important;
+  font-weight: 600 !important;
+}
+.textJustify {
+  text-align: justify;
+}
+@media (max-width: 1440px) {
+  .pageContainer {
+    max-width: 90%;
+  }
+}
+@media (max-width: 991px) {
+  .pageContainer {
+    max-width: 96%;
+  }
+  .andCol {
+    display: none;
+  }
+  .afterEndColSection {
+    margin-top: 32px;
+  }
+  .basicFieldsForm .fields {
+    max-width: 100%;
+    padding: 0 !important;
+  }
+}
+
+@media (max-width: 425px) {
+  .pageContainer {
+    max-width: 98%;
+  }
+}

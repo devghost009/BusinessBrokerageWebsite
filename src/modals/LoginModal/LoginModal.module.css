@@ -1,0 +1,84 @@
+.loginModal {
+  width: 100%;
+  margin: 0 auto;
+  box-shadow: rgb(100 100 111 / 20%) 0px 7px 29px 0px;
+  padding: 50px 70px !important;
+  background-color: var(--white-color);
+  border-radius: inherit;
+}
+
+.loginText h3 {
+  font-family: "Bebas-Neue-bold";
+  color: var(--main-color);
+  font-size: 53px;
+  text-align: center;
+}
+
+.loginBtn {
+  padding: 0px;
+  margin: 20px 0 0 0;
+  height: 58px;
+  width: 100% !important;
+}
+
+.forgetPasswordDiv {
+  margin-top: 2px;
+  display: flex;
+  justify-content: end;
+}
+
+.forgetPasswordText {
+  font-size: 14px;
+  font-family: "Open-Sans-regular";
+  margin-bottom: 0px;
+  cursor: pointer;
+  color: var(--bs-link-color);
+}
+
+.alignEnd p {
+  cursor: pointer;
+}
+
+.inputCol {
+  margin: 20px 0;
+}
+
+.SignUpDiv {
+  margin: 32px 0 0 0;
+  font-family: "Open-Sans-semiBold";
+  font-size: 18px;
+  text-align: center;
+}
+
+.SignUpText {
+  font-size: 18px;
+  font-family: "Open-Sans-semiBold";
+  color: var(--bs-link-color);
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.btnCol {
+  display: flex;
+  justify-content: center;
+}
+
+.fogetPassHeaderCol {
+  position: relative;
+}
+
+.backIcon {
+  position: absolute;
+  top: 16px;
+  cursor: pointer;
+}
+
+@media (max-width: 578px) {
+  .loginModal {
+    padding: 40px 20px !important;
+  }
+
+  .loginText h3 {
+    font-size: 40px;
+  }
+}

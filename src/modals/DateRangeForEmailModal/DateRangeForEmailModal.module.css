@@ -1,0 +1,22 @@
+.container {
+    padding: 0 35px;
+}
+
+.row {
+    row-gap: 30px;
+}
+
+.mb20 {}
+
+.btn_main {
+    margin-top: 20px;
+}
+
+.btn {
+    width: 100%;
+    padding: 12px 30px;
+    height: max-content;
+    font-family: 'Open-Sans-medium' !important;
+    background-color: var(--dashboard-main-color) !important;
+    font-size: 15px !important;
+}

@@ -1,0 +1,208 @@
+.container_main {
+  padding: 20px 30px;
+  height: calc(100vh - 79px);
+  overflow-y: auto;
+}
+
+.statCard_col {}
+
+.statCard {
+  min-height: 160px;
+}
+
+.latestActivities_main {
+  background-color: #f8f8f8;
+  border-radius: 10px;
+  margin: 30px 0;
+  position: relative;
+}
+
+.emails_main {
+  background-color: #e5f5ff;
+  border-radius: 10px;
+  margin: 30px 0;
+  position: relative;
+}
+
+.email_inner {
+  padding: 50px 30px;
+  height: 470px;
+  overflow-y: auto;
+}
+
+.noEmailDiv {
+  height: inherit;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.configureEmailBtn {
+  font-family: "Open-Sans-medium" !important;
+  background-color: var(--dashboard-main-color) !important;
+  color: var(--white-color);
+  padding: 12px 20px;
+  border-radius: 8px;
+  font-size: 15px !important;
+  height: 44px !important;
+  line-height: 1;
+}
+
+.latestActivities_inner {
+  padding: 46px 30px;
+  height: 470px;
+  overflow-y: auto;
+}
+
+.home_main {
+  padding: 30px 40px;
+}
+
+.main_heading h4 {
+  color: var(--dashboard-main-color);
+  font-family: "Open-Sans-bold";
+}
+
+.main_heading h3 {
+  font-family: "Bebas-Neue-bold";
+  font-size: 35px;
+  color: #242342;
+}
+
+.latestActivities_row {
+  margin-bottom: 25px;
+}
+
+
+.header {
+  position: absolute;
+  right: 20px;
+  top: 10px;
+}
+
+.sectionTwo_row {
+  margin-top: 40px;
+}
+
+
+.headerContainer {
+  padding: 10px 30px 20px 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.headerContainer h3 {
+  font-family: "Bebas-Neue-bold";
+  font-size: 35px;
+  color: #242342;
+}
+
+.inputDiv {
+  display: flex;
+}
+
+.teamMemberImgDiv {
+  width: 50px;
+  border-radius: 50%;
+  height: 50px;
+  border: 1px solid #707070;
+  position: absolute;
+  top: -22px;
+}
+
+.teamMemberImgDiv img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: top center;
+  border-radius: 50%;
+}
+
+.countMember {
+  position: absolute;
+  left: 125px;
+  top: -7px;
+  font-size: 12px;
+}
+
+.threeDots {
+  cursor: pointer;
+}
+
+.paginationDiv {
+  display: flex;
+  justify-content: flex-end;
+  padding: 20px 30px 20px 30px;
+}
+
+.viewDetailsBtn,
+.viewMemoBtn {
+  height: max-content !important;
+  font-family: "Open-Sans-medium" !important;
+  font-size: 13px !important;
+  background-color: var(--dashboard-main-color) !important;
+  padding: 8px 10px !important;
+  border-radius: 8px;
+}
+
+.btnsDiv {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  justify-content: center;
+}
+
+.latestActivities_inner::-webkit-scrollbar,
+.email_inner::-webkit-scrollbar {
+  width: 6px;
+  border-radius: 12px;
+}
+
+.latestActivities_inner::-webkit-scrollbar-track,
+.email_inner::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  width: 6px;
+  border-radius: 12px;
+}
+
+.latestActivities_inner::-webkit-scrollbar-thumb,
+.email_inner::-webkit-scrollbar-thumb {
+  background-color: var(--dashboard-main-color);
+  width: 6px;
+  border-radius: 12px;
+}
+
+.noDataColor svg {
+  color: var(--dashboard-main-color) !important;
+}
+
+.noDataColor p {
+  color: var(--dashboard-main-color) !important;
+}
+
+@media screen and (max-width: 767px) {
+  .email_inner {
+    padding: 30px 20px;
+    height: 400px;
+  }
+
+  .latestActivities_inner {
+    padding: 30px 20px;
+    height: 400px;
+  }
+
+  .container_main {
+    padding: 20px 16px;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .email_inner {
+    height: 350px;
+  }
+
+  .latestActivities_inner {
+    height: 350px;
+  }
+}

@@ -1,0 +1,87 @@
+.CompanyHistory_main {
+  padding: 60px 0 0 0;
+}
+
+.CompanyHistory_left h3 {
+  text-align: left;
+  color: #000;
+}
+
+.CompanyHistory_left p {
+  font-family: "Open-Sans-regular";
+  margin-bottom: 30px;
+  max-width: 850px;
+  line-height: 30px;
+  text-align: justify;
+}
+
+.CompanyHistory_right {
+  height: 100%;
+}
+
+.CompanyHistory_image {
+  height: 100%;
+  width: 100%;
+}
+
+.CompanyHistory_image img {
+  width: 100%;
+  height: 100%;
+}
+
+.textDescCol h3 {
+  color: #000;
+  text-align: left;
+}
+
+.textDescCol p {
+  font-family: "Open-Sans-regular";
+  text-align: justify;
+}
+
+
+@media screen and (max-width: 1268px) {
+
+  .textDescCol h3 {
+    font-size: 32px;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .CompanyHistory_right_col {
+    order: -1;
+  }
+
+  .CompanyHistory_image {
+    margin-left: unset;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    height: 400px;
+  }
+
+  .CompanyHistory_left p {
+    line-height: 24px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .CompanyHistory_image {
+    height: 300px;
+  }
+
+  .CompanyHistory_left p {
+    line-height: 20px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .CompanyHistory_image {
+    height: 250px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .CompanyHistory_row {
+    margin: 0;
+  }
+}

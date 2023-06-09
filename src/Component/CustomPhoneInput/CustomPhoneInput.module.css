@@ -1,0 +1,29 @@
+.phoneInput {
+  font-family: "Open-Sans-semiBold";
+  font-size: 16px !important;
+  color: var(--text-color-black);
+  letter-spacing: 1.4px !important;
+  background-color: #fff !important;
+  width: 100% !important;
+  min-height: 54px !important;
+  border: none !important;
+}
+.phoneInputContainer {
+  border: 1px solid #4d4d4d !important;
+}
+.phoneInput:focus {
+  box-shadow: none !important;
+}
+.phoneInput::placeholder {
+  color: var(--placeholder-color);
+  font-family: "Open-Sans-medium";
+  font-size: 16px;
+  text-transform: capitalize;
+}
+.phoneLabel {
+  color: var(--main-color);
+  text-transform: capitalize;
+  font-family: "Bebas-Neue-bold";
+  font-size: 30px;
+  margin-bottom: 0.5rem;
+}

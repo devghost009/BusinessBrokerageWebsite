@@ -1,0 +1,27 @@
+.loaderContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 450px;
+}
+
+@media screen and (max-width: 768px) {
+  .loaderContainer {
+    height: 400px;
+  }
+}
+@media screen and (max-width: 540px) {
+  .loaderContainer {
+    height: 350px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .loaderContainer {
+    height: 320px;
+  }
+}
+@media screen and (max-width: 360px) {
+  .loaderContainer {
+    height: 200px;
+  }
+}

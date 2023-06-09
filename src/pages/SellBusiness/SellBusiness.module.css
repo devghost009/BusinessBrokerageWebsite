@@ -1,0 +1,72 @@
+.heroBackground {
+  background: transparent linear-gradient(90deg, #2c2c2c 0%, #016fbc 100%) 0% 0%
+    no-repeat padding-box;
+}
+
+.heroContainer {
+  padding: 60px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.heroHeader {
+  color: #ffffff;
+  font-family: "Bebas-Neue-bold";
+  text-align: center;
+}
+
+.heroBtn {
+  font-size: 25px !important;
+}
+
+.heroBtn:hover {
+  color: var(--main-color);
+  background-color: var(--white-color);
+}
+
+.customStyle {
+  display: flex;
+  flex-direction: row;
+  justify-content: center !important;
+  background-color: #02528a !important;
+  width: fit-content;
+  margin: 0 auto;
+  align-items: center;
+  padding: 8px 15px 0px 15px;
+}
+
+.container {
+  width: 74%;
+  max-width: 74%;
+  padding: 30px 0;
+}
+
+@media screen and (max-width: 1280px) {
+  .container {
+    max-width: 75% !important;
+    width: 75% !important;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .container {
+    max-width: 80% !important;
+    width: 80% !important;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    max-width: 90% !important;
+    width: 90% !important;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .container {
+    max-width: 96% !important;
+    width: 96% !important;
+  }
+}

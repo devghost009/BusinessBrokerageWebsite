@@ -1,0 +1,187 @@
+/* getFree */
+.getFree_main {
+  background: transparent linear-gradient(90deg, #1a1a1a 0%, #0066ae 100%) 0% 0% no-repeat padding-box;
+  padding: 60px 0;
+  text-align: center;
+}
+
+.container {
+  position: relative;
+}
+
+
+
+.getFree_overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: transparent linear-gradient(90deg, #1a1a1a 0%, #0066ae 100%) 0% 0% no-repeat padding-box;
+}
+
+.getFree_main h2 {
+  color: #ffffff;
+  cursor: pointer;
+  display: inline;
+  padding: 0 10px;
+  position: relative;
+  z-index: 2;
+}
+
+
+.getFree_btn {
+  color: #02528a;
+  background: #ffffff;
+  width: 391px !important;
+  font-family: "Bebas-Neue-regular";
+}
+
+.getFree_btn:hover {
+  background-color: var(--main-color);
+  color: var(--white-color);
+}
+
+.getFree_sectionImg {
+  margin: 20px 0;
+}
+
+
+
+/* Animation */
+.elementor-headline--style-highlight svg path {
+  stroke: #fff;
+  stroke-width: 7px;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  fill: none;
+  opacity: 0;
+  stroke-dasharray: 0 1500;
+  -webkit-transition: .3s;
+  -o-transition: .3s;
+  transition: .3s;
+  transition-duration: 0.3s;
+}
+
+.elementor-headline {
+  width: 270px;
+  height: 84px;
+  position: absolute;
+  top: -8px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1;
+}
+
+.elementor-headline.e-animated svg path {
+  -webkit-animation: elementor-headline-dash forwards;
+  animation: elementor-headline-dash forwards;
+  animation-duration: 0s;
+  animation-iteration-count: 1;
+  -webkit-animation-duration: var(--animation-duration, 1.2s);
+  animation-duration: var(--animation-duration, 1.2s);
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1;
+}
+
+.elementor-headline.e-hide-highlight svg path {
+  opacity: 1;
+  stroke-dasharray: 1500 1500;
+  -webkit-animation: hide-highlight .4s forwards;
+  animation: hide-highlight .4s forwards;
+  animation-duration: 0.4s;
+  animation-iteration-count: 1;
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1;
+}
+
+@-webkit-keyframes elementor-headline-dash {
+  0% {
+    stroke-dasharray: 0 1500;
+    opacity: 1
+  }
+
+  to {
+    stroke-dasharray: 1500 1500;
+    opacity: 1
+  }
+}
+
+@keyframes elementor-headline-dash {
+  0% {
+    stroke-dasharray: 0 1500;
+    opacity: 1
+  }
+
+  to {
+    stroke-dasharray: 1500 1500;
+    opacity: 1
+  }
+}
+
+@-webkit-keyframes hide-highlight {
+  0% {
+    opacity: 1;
+    stroke-dasharray: 1500 1500
+  }
+
+  to {
+    opacity: 0;
+    -webkit-filter: blur(10px);
+    filter: blur(10px)
+  }
+}
+
+@keyframes hide-highlight {
+  0% {
+    opacity: 1;
+    stroke-dasharray: 1500 1500
+  }
+
+  to {
+    opacity: 0;
+    -webkit-filter: blur(10px);
+    filter: blur(10px)
+  }
+}
+
+/* Animation */
+
+
+
+@media screen and (max-width: 1280px) {
+  .container {
+    max-width: 75% !important;
+    width: 75% !important;
+  }
+}
+
+
+@media screen and (max-width: 1024px) {
+  .container {
+    max-width: 80% !important;
+    width: 80% !important;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    max-width: 90% !important;
+    width: 90% !important;
+  }
+
+  .getFree_btn {
+    width: 340px !important;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .container {
+    max-width: 96% !important;
+    width: 96% !important;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .getFree_btn {
+    width: 100% !important;
+  }
+}

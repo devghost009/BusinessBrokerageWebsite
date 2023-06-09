@@ -1,0 +1,69 @@
+.SellBusinessCard_main {
+  padding: 60px 0;
+}
+
+.SellBusinessCard_left {
+
+  height: 100%;
+}
+
+.SellBusinessCard_left img {
+  height: 100%;
+  width: 100%;
+}
+
+.SellBusinessCard_right h3 {
+  color: var(--main-color);
+}
+
+.SellBusinessCard_right p {
+  line-height: 30px;
+  text-align: justify;
+}
+
+.SellBusinessCard_right .text2 {
+  margin-top: 30px;
+}
+
+@media screen and (max-width: 992px) {
+  .SellBusinessCard_col {
+    order: -1;
+    margin-bottom: 30px;
+  }
+
+  .SellBusinessCard_main {
+    padding: 50px 0;
+  }
+
+  .SellBusinessCard_right p {
+    line-height: 24px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .SellBusinessCard_left {
+    height: 400px;
+  }
+
+  .SellBusinessCard_main {
+    padding: 20px 0;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .SellBusinessCard_right p {
+    line-height: 20px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .SellBusinessCard_left {
+    height: 350px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .SellBusinessCard_left {
+    height: 300px;
+  }
+}

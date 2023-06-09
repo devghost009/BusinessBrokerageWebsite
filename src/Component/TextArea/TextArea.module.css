@@ -1,0 +1,37 @@
+.textAreaBox {
+  position: relative;
+}
+
+.textAreaBox label {
+  margin-bottom: 8px;
+  color: var(--main-color);
+  text-transform: capitalize;
+  font-family: "Bebas-Neue-bold";
+  font-size: 30px;
+}
+
+.textAreaBox textarea {
+  border-radius: 0;
+  border: 1px solid #4d4d4d;
+  padding: 16px;
+  font-size: 16px;
+  font-family: "Open-Sans-semiBold";
+  color: var(--text-color-black);
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  width: 100%;
+  background-color: var(--white-color);
+}
+
+.textAreaBox textarea::placeholder {
+  color: var(--placeholder-color);
+  font-family: "Open-Sans-medium";
+  font-size: 16px;
+  text-transform: capitalize;
+}
+
+@media (max-width: 991px) {
+  .textAreaBox label {
+    font-size: 20px;
+  }
+}

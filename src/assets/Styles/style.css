@@ -1,0 +1,492 @@
+:root {
+  --main-color: #02528a;
+  --text-color-gray: #f5f5f5;
+  --text-dark-gray: #808080;
+  --white-color: #ffffff;
+  --text-color-black: #000000;
+  --placeholder-color: #bbbbbb;
+  --dashboard-main-color: #242342;
+  --dashboard-text-color: #52575d;
+  --sidebar-text-color: #8f9299;
+  --error-color: red;
+}
+
+body {}
+
+/* Bebas-Neue */
+
+@font-face {
+  font-family: "Bebas-Neue-bold";
+  src: url("../fonts/BebasNeue/BebasNeue\ Bold.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "Bebas-Neue-meduim";
+  src: url("../fonts/BebasNeue/BebasNeue\ Light.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "Bebas-Neue-regular";
+  src: url("../fonts/BebasNeue/BebasNeue\ Regular.otf") format("opentype");
+}
+
+/* Open sans */
+
+@font-face {
+  font-family: "Open-Sans-bold";
+  src: url("../fonts/OpenSans/OpenSans-Bold.ttf");
+}
+
+@font-face {
+  font-family: "Open-Sans-semiBold";
+  src: url("../fonts/OpenSans/OpenSans-SemiBold.ttf");
+}
+
+@font-face {
+  font-family: "Open-Sans-medium";
+  src: url("../fonts/OpenSans/OpenSans-Medium.ttf");
+}
+
+@font-face {
+  font-family: "Open-Sans-regular";
+  src: url("../fonts/OpenSans/OpenSans-Regular.ttf");
+}
+
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+/*---------------------------------------------*/
+
+a {
+  font-family: "Bebas-Neue-regular";
+  font-size: 14px;
+  line-height: 1.7;
+  color: #666666;
+  margin: 0px;
+  transition: all 0.4s;
+  -webkit-transition: all 0.4s;
+  -o-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+}
+
+a:focus {
+  outline: none !important;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #a64bf4;
+}
+
+body p {
+  font-size: 16px;
+  font-family: "Open-Sans-regular";
+}
+
+.customPara {
+  font-size: 16px;
+  font-family: "Open-Sans-regular";
+}
+
+body h1 {
+  font-size: 67px;
+  font-family: "Bebas-Neue-bold";
+  /* line-height: 65px; */
+}
+
+body h2 {
+  font-size: 60px;
+  font-family: "Bebas-Neue-bold";
+  /* line-height: 60px; */
+}
+
+body h3 {
+  font-size: 53px;
+  font-family: "Bebas-Neue-bold";
+}
+
+body h4 {
+  font-size: 34px;
+  font-family: "Bebas-Neue-regular";
+}
+
+body h5 {
+  font-size: 24px;
+  font-family: "Open-Sans-bold";
+}
+
+body h6 {
+  font-size: 20px;
+  font-family: "Open-Sans-bold";
+}
+
+/*---------------------------------------------*/
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+button,
+a,
+svg {
+  margin: 0px;
+}
+
+body p.large {
+  font-size: 24px;
+  font-family: "Open-Sans-semiBold";
+}
+
+body p.reg,
+button {
+  font-size: 22px !important;
+  font-family: "Bebas-Neue-bold" !important;
+}
+
+.p18 {
+  font-size: 18px;
+  font-family: "Open-Sans-regular";
+  color: var(--text-color-black);
+}
+
+ul,
+li {
+  margin: 0px;
+  list-style-type: none;
+}
+
+
+input {
+  outline: none;
+  border: none;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* / Firefox / */
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+textarea {
+  outline: none;
+  border: none;
+}
+
+.footer_text {
+  font-size: 15px !important;
+  font-family: "Open-Sans-regular" !important;
+  color: var(--white-color);
+  margin-bottom: 0px;
+  text-align: justify;
+}
+
+.main-btn {
+  background-color: var(--main-color);
+  color: var(--white-color);
+  border-radius: 50px;
+  outline: none;
+  border: none;
+}
+
+.min_h6 {
+  font-size: 20px !important;
+  font-family: "Bebas-Neue-regular" !important;
+}
+
+.hero_text {
+  font-size: 29px !important;
+  font-family: "Bebas-Neue-bold" !important;
+}
+
+.SkeletonContainer {
+  display: inline-block;
+  height: 350px;
+  width: 95%;
+  animation: skeleton-loading 1300ms ease-in-out infinite;
+  background-color: #eee;
+  background-image: linear-gradient(90deg, #eee, #f5f5f5, #eee);
+  background-size: 200px 100%;
+  background-repeat: no-repeat;
+  border-radius: 4px;
+  margin-bottom: 8px;
+  margin-top: "0";
+}
+
+.customScroll::-webkit-scrollbar {
+  width: 6px;
+  border-radius: 12px;
+}
+
+.customScroll::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  width: 6px;
+  border-radius: 12px;
+}
+
+.customScroll::-webkit-scrollbar-thumb {
+  background-color: var(--main-color);
+  width: 6px;
+  border-radius: 12px;
+}
+
+.hoverCircle {
+  border-color: var(--main-color);
+  transition: all 0.3s;
+}
+
+.hoverCircle svg {
+  color: var(--main-color);
+}
+
+.hoverCircle:hover {
+  background-color: var(--main-color);
+  border-color: var(--text-color-gray);
+}
+
+.hoverCircle:hover svg {
+  color: var(--text-color-gray);
+}
+
+@keyframes skeleton-loading {
+  0% {
+    background-position: -200px 0;
+  }
+
+  100% {
+    background-position: calc(200px + 100%) 0;
+  }
+}
+
+/* Media Quories */
+
+@media screen and (max-width: 1600px) {
+  body p {
+    font-size: 15px;
+  }
+
+  .customPara {
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 1440px) {
+  body h1 {
+    font-size: 64px;
+  }
+
+  body h2 {
+    font-size: 54px;
+  }
+
+  body h3 {
+    font-size: 52px;
+  }
+
+  body h4 {
+    font-size: 30px;
+  }
+
+  body p {
+    font-size: 15px;
+  }
+
+  .customPara {
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 1366px) {
+  body h1 {
+    font-size: 60px;
+  }
+
+  body h2 {
+    font-size: 50px;
+  }
+
+  body h3 {
+    font-size: 48px;
+  }
+
+  body h4 {
+    font-size: 27px;
+  }
+
+  body h6 {
+    font-size: 19px;
+  }
+
+  body p {
+    font-size: 13.5px;
+  }
+
+  .customPara {
+    font-size: 13.5px;
+  }
+}
+
+@media screen and (max-width: 1199px) {
+  body h2 {
+    font-size: 46px;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  body h1 {
+    font-size: 52px;
+    /* line-height: 50px; */
+  }
+
+  body h2 {
+    font-size: 40px;
+    /* line-height: 40px; */
+  }
+
+  body h3 {
+    font-size: 43px;
+  }
+
+  body h4 {
+    font-size: 24px;
+  }
+
+  body h6 {
+    font-size: 18px;
+  }
+
+  body p {
+    font-size: 13px;
+  }
+
+  .customPara {
+    font-size: 13px;
+  }
+
+  body p.reg,
+  button {
+    font-size: 20px !important;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  body h1 {
+    font-size: 45px;
+  }
+
+  body h2 {
+    font-size: 35px;
+  }
+
+  body h3 {
+    font-size: 32px;
+  }
+
+  body h4 {
+    font-size: 21px;
+  }
+
+  body h5 {
+    font-size: 20px;
+  }
+
+  body h6 {
+    font-size: 18px;
+  }
+
+  body p {
+    font-size: 13px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  /*  */
+
+  body h1 {
+    font-size: 42px;
+  }
+
+  body h2 {
+    font-size: 32px;
+  }
+
+  body h3 {
+    font-size: 30px;
+  }
+
+  body h4 {
+    font-size: 20px;
+  }
+
+  body h5 {
+    font-size: 19px;
+  }
+
+  body h6 {
+    font-size: 18px;
+  }
+
+  .p18 {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  body h1 {
+    font-size: 40px;
+  }
+
+  body h2 {
+    font-size: 30px;
+  }
+
+  body h3 {
+    font-size: 28px;
+  }
+
+  body h4 {
+    font-size: 19px;
+  }
+
+  body h5 {
+    font-size: 18px;
+  }
+
+  body h6 {
+    font-size: 17px;
+  }
+
+  body p {
+    font-size: 12px;
+  }
+
+  .customPara {
+    font-size: 12px;
+  }
+
+  body p.reg,
+  button {
+    font-size: 18px !important;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  body h2 {
+    font-size: 30px;
+  }
+
+  .p18 {
+    font-size: 15px;
+  }
+}
